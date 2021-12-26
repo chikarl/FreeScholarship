@@ -207,3 +207,87 @@ label {
 .show {
   display: block;
 }
+
+.textlastup {
+  font-size: 18px;
+  padding-bottom: 5px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.btn {
+  cursor: pointer;
+  width: 100%;
+  max-width: 345px;
+}
+.btn {
+  width: 80%;
+  font-size: 28px;
+  max-width: 345px;
+  margin: 15px auto;
+  background-color: #58be41;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  display: block;
+  padding: 7px 0;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  box-shadow: none;
+}
+.btn:hover {
+  background-color: #fff;
+  color: #58be41;
+  box-shadow: 0 0 2px #58be41, 0 0 5px #58be41, 0 0 7px #58be41,
+    0 0 11px #58be41;
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+  color: #fff;
+  background-color: #286090;
+  border-color: #122b40;
+}
+
+.progress {
+  width: 98%;
+  height: 20px;
+  position: relative;
+  margin: 60px 0 20px 0;
+  background: #555;
+  /* padding: 10px; */
+  -webkit-box-shadow: inset 0 -1px 1px rgb(255 255 255 / 30%);
+  -moz-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+  box-shadow: inset 0 -1px 1px rgb(255 255 255 / 30%);
+  margin: auto;
+}
+.progress > span {
+  display: block;
+  height: 20px;
+  left: 0;
+  top: 0;
+  background-color: #3f51b5;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, #00bcd4),
+    color-stop(1, #2196f3)
+  );
+  background-image: -moz-linear-gradient(
+    center bottom,
+    rgb(43, 194, 83) 37%,
+    rgb(84, 240, 84) 69%
+  );
+  -webkit-box-shadow: inset 0 2px 9px rgb(255 255 255 / 30%),
+    inset 0 -2px 6px rgb(0 0 0 / 40%);
+  -moz-box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3),
+    inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0 2px 9px rgb(255 255 255 / 30%),
+    inset 0 -2px 6px rgb(0 0 0 / 40%);
+  position: absolute;
+  overflow: hidden;
+}

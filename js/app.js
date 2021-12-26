@@ -20,7 +20,7 @@ ans1.forEach(item => {
   setTimeout(function(){
     gif.classList.remove('show')
     questionTxt2.classList.add('show')
-  }, 2000)
+  }, 1000)
  })
 })
 
@@ -31,7 +31,7 @@ ans2.forEach(item => {
   setTimeout(function(){
     gif.classList.remove('show')
     questionTxt3.classList.add('show')
-  }, 2000)
+  }, 1500)
  })
  })
 
@@ -47,7 +47,7 @@ ans3.forEach(item => {
       congrat.classList.remove('show')
       lastPage.classList.add('show')
     }, 3000)
-  }, 1000)
+  }, 500)
 
   
  })
